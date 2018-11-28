@@ -79,6 +79,7 @@ var LineComponent = /** @class */ (function () {
     };
     LineComponent.prototype.one = function (event, bindValue) {
         var _this = this;
+        console.log(bindValue);
         var chart = c3.generate({
             bindto: bindValue,
             data: {
